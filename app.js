@@ -10,11 +10,11 @@ for(let row =1; row <=16 ; row++)
 // selecting the elements inside of screen 
 const pixels = document.querySelector('.screen').querySelectorAll('div');
 const screen = document.querySelector('.screen');
-screen.style.cssText ='display : grid; grid-template-columns: auto auto auto;';
+screen.style.cssText ='display : grid; grid-template-columns: repeat(16, 1fr);';
 
-for(let i = 0; i < pixels.length ; i++)
+for(let i = 0; i < pixels.length ; i++)// for modifying the pixels
 {
-    pixels[i].style.cssText ='display : grid';
+    
 }
 
 
