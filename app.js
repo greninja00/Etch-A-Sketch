@@ -6,7 +6,7 @@ function create(size)
     {
         for(let col =1 ; col <= size; col++)
         {
-            document.querySelector('.screen').innerHTML += `<div>${row}, ${col}</div>`;
+            document.querySelector('.screen').innerHTML += `<div></div>`;
         }
     }
 }
