@@ -12,9 +12,11 @@ const pixels = document.querySelector('.screen').querySelectorAll('div');
 const screen = document.querySelector('.screen');
 screen.style.cssText ='display : grid; grid-template-columns: repeat(16, 1fr);';
 
-for(let i = 0; i < pixels.length ; i++)// for modifying the pixels
+for(let i = 0; i < pixels.length ; i++)// for modifying the pixels color
 {
-    
+    pixels[i].addEventListener('mousemove', function(e)  {e.target.style.backgroundColor = 'blue';})
 }
+
+
 
 
