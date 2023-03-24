@@ -6,8 +6,8 @@ body{
 }
 .screen{
     display: block;
-    height : 800px;
-    width : 800px;
+    height : 960px;
+    width : 960px;
     border: solid black 2px;
     
 }
